@@ -86,7 +86,7 @@ submitBtn.addEventListener('click',()=>{
         }else{
             quiz.innerHTML = `
                 <h2>Your answered correctly at <br><strong style="color:green">${score}/${quizdata.length}</strong><br> Questions</h2>
-                <button onclick="window.location = ('/quiz-app/')">Reload</button>
+                <button onclick="window.location = ('https://sabuzkhandev.github.io/quiz-app/')">Reload</button>
             `
         }
     }
